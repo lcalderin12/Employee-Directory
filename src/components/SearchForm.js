@@ -14,11 +14,11 @@ function SearchForm(props) {
         <label htmlFor="search">Search:</label>
         <input
           onChange={props.handleInputChange}
-          value={props.search}
+          value={props.value}
           name="search"
           type="text"
           className="form-control"
-          placeholder="Search name"
+          placeholder="Search first name only"
           id="search"
         />
         <button onClick={props.handleFormSubmit} className="btn btn-primary mt-3">

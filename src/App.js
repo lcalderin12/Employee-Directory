@@ -1,12 +1,4 @@
-// import './App.css';
-// import React, {Component} from "react";
-// import axios from "axios";
-
-
-
-// export default App;
-
-
+import './App.css';
 import React, { Component } from "react";
 import "./App.css";
 import FetchRandomUser from "./components/FetchRandomUser";
@@ -20,6 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <FetchRandomUser />
+      
       </div>
     );
   }
